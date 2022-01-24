@@ -1,1 +1,1 @@
-This plugin create only for testing PBX
+This plugin create only for testing GeoCoder
