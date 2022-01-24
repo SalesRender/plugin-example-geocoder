@@ -10,6 +10,7 @@ namespace Leadvertex\Plugin\Instance\Geocoder;
 
 use Leadvertex\Plugin\Components\Form\FieldDefinitions\FieldDefinition;
 use Leadvertex\Plugin\Components\Form\FieldDefinitions\PasswordDefinition;
+use Leadvertex\Plugin\Components\Form\FieldDefinitions\StringDefinition;
 use Leadvertex\Plugin\Components\Form\FieldGroup;
 use Leadvertex\Plugin\Components\Form\Form;
 use Leadvertex\Plugin\Components\Form\FormData;
@@ -28,20 +29,20 @@ class SettingsForm extends Form
             return $errors;
         };
         parent::__construct(
-            Translator::get('settings', 'Настройки dadata.ru'),
+            Translator::get('settings', 'Настройки'),
             null,
             [
                 'main' => new FieldGroup(
                     Translator::get('settings', 'Основные настройки'),
                     null,
                     [
-                        'token' => new PasswordDefinition(
-                            Translator::get('settings', 'Token'),
+                        'email' => new StringDefinition(
+                            Translator::get('settings', 'Email'),
                             null,
                             $nonNull
                         ),
-                        'secret' => new PasswordDefinition(
-                            Translator::get('settings', 'Secret'),
+                        'password' => new PasswordDefinition(
+                            Translator::get('settings', 'Пароль'),
                             null,
                             $nonNull
                         ),
