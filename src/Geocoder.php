@@ -23,7 +23,7 @@ class Geocoder implements GeocoderInterface
             $addressParts = [];
 
             $countryCode = null;
-            $postalCode = null;
+            $postalCode = "";
             foreach ($parts as $part) {
                 if (preg_match('~^[A-Z]{2}$~', $part)) {
                     $countryCode = $part;
