@@ -5,16 +5,16 @@
  * @author Timur Kasumov aka XAKEPEHOK
  */
 
-namespace Leadvertex\Plugin\Instance\Geocoder;
+namespace SalesRender\Plugin\Instance\Geocoder;
 
 
-use Leadvertex\Plugin\Components\Form\FieldDefinitions\FieldDefinition;
-use Leadvertex\Plugin\Components\Form\FieldDefinitions\PasswordDefinition;
-use Leadvertex\Plugin\Components\Form\FieldDefinitions\StringDefinition;
-use Leadvertex\Plugin\Components\Form\FieldGroup;
-use Leadvertex\Plugin\Components\Form\Form;
-use Leadvertex\Plugin\Components\Form\FormData;
-use Leadvertex\Plugin\Components\Translations\Translator;
+use SalesRender\Plugin\Components\Form\FieldDefinitions\FieldDefinition;
+use SalesRender\Plugin\Components\Form\FieldDefinitions\PasswordDefinition;
+use SalesRender\Plugin\Components\Form\FieldDefinitions\StringDefinition;
+use SalesRender\Plugin\Components\Form\FieldGroup;
+use SalesRender\Plugin\Components\Form\Form;
+use SalesRender\Plugin\Components\Form\FormData;
+use SalesRender\Plugin\Components\Translations\Translator;
 
 class SettingsForm extends Form
 {

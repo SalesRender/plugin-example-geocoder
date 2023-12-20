@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use Leadvertex\Plugin\Core\Geocoder\Factories\ConsoleAppFactory;
+use SalesRender\Plugin\Core\Geocoder\Factories\ConsoleAppFactory;
 
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/bootstrap.php';

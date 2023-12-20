@@ -1,24 +1,24 @@
 {
-  "name": "leadvertex/plugin-geocoder-example",
-  "description": "Example GEOCODER plugin for developing UI at leadvertex.com",
+  "name": "salesrender/plugin-geocoder-example",
+  "description": "Example GEOCODER plugin for developing UI at salesrender.com",
   "type": "project",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
       "name": "Timur Kasumov aka XAKEPEHOK",
-      "email": "support@leadvertex.com"
+      "email": "support@salesrender.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Leadvertex\\Plugin\\Instance\\Geocoder\\": "src/"
+      "SalesRender\\Plugin\\Instance\\Geocoder\\": "src/"
     }
   },
   "require": {
     "php": ">=7.4.0",
     "ext-curl": "*",
     "ext-json": "*",
-    "leadvertex/plugin-core-geocoder": "^0.1.1"
+    "salesrender/plugin-core-geocoder": "^0.2.1"
   }
 }

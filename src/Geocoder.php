@@ -5,13 +5,13 @@
  * @author Timur Kasumov (XAKEPEHOK)
  */
 
-namespace Leadvertex\Plugin\Instance\Geocoder;
+namespace SalesRender\Plugin\Instance\Geocoder;
 
-use Leadvertex\Components\Address\Address;
-use Leadvertex\Components\Address\Location;
-use Leadvertex\Plugin\Core\Geocoder\Components\Geocoder\GeocoderInterface;
-use Leadvertex\Plugin\Core\Geocoder\Components\Geocoder\GeocoderResult;
-use Leadvertex\Plugin\Core\Geocoder\Components\Geocoder\Timezone;
+use SalesRender\Components\Address\Address;
+use SalesRender\Components\Address\Location;
+use SalesRender\Plugin\Core\Geocoder\Components\Geocoder\GeocoderInterface;
+use SalesRender\Plugin\Core\Geocoder\Components\Geocoder\GeocoderResult;
+use SalesRender\Plugin\Core\Geocoder\Components\Geocoder\Timezone;
 
 class Geocoder implements GeocoderInterface
 {
