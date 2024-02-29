@@ -16,9 +16,9 @@
     }
   },
   "require": {
-    "php": ">=7.4.0",
+    "php": "^7.4.0",
     "ext-curl": "*",
     "ext-json": "*",
-    "salesrender/plugin-core-geocoder": "^0.2.1"
+    "salesrender/plugin-core-geocoder": "^0.3.0"
   }
 }
